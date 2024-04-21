@@ -3,11 +3,24 @@
     padding: 0;
     border: 0;
 }
+header {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
 nav {
     padding: 3vh 2vw !important;
 }
 .bg-dark{
     background-color: black !important;
+}
+.container{
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 15px;
+    padding: 15px 25px;
 }
 p, .lead {
 font-size: 1.5rem;
@@ -53,7 +66,7 @@ justify-content: center;
   }
 #world-parent {
     width: 100%;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
     height: 100%;
 }
 .world {
