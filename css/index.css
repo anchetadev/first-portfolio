@@ -22,12 +22,13 @@ nav {
     border-radius: 15px;
     padding: 15px 25px;
 }
-p, .lead {
-font-size: 1.5rem;
-}
 p {
     font-size: 20pt;
 }
+.lead {
+font-size: 1.5rem;
+}
+
 header {
 padding: 25px 0;
 height: 75vh;
