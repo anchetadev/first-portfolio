@@ -7,10 +7,14 @@ header {
     background-image: url("../img/banner.png");
     background-repeat: no-repeat;
     object-fit: cover;
+    background-size: cover;
 
 }
 nav {
     padding: 3vh 2vw !important;
+}
+.nav-item {
+    font-size: 2rem;
 }
 .bg-dark{
     background-color: black !important;
