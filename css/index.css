@@ -8,10 +8,12 @@ header {
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
-
 }
 nav {
     padding: 3vh 2vw !important;
+}
+.navbar-brand {
+    font-size: 2rem;
 }
 .nav-item {
     font-size: 2rem;
@@ -119,8 +121,14 @@ footer > div > img {
 }
 
 @media only screen and (max-width: 600px) {
-    p {
-        font-size: 10pt;
+    nav {
+        padding: 1.5vh 1vw !important;
+    }
+    header {
+        height: 40vh;
+    }
+    p, .lead {
+        font-size: 0.7rem;
     }
     .hidden-text > p {
         font-size: 0.8rem;
@@ -128,18 +136,37 @@ footer > div > img {
     #world-parent {
         padding: 25px;
     }
+    .navbar-nav { 
+        flex-direction: row;
+    }
+    .navbar-brand, .nav-item {
+        font-size: 0.8rem;
+    }
+    .nav-item {
+        margin: 0 5px;
+    }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) {
+
+    header {
+        height: 35vh;
+    }
     p {
-        font-size: 10pt;
+        font-size: 1.25rem;
     }
     .lead {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .hidden-text > p {
         font-size: 0.75rem;
     }
     #world-parent {
         padding: 25px;
+    }
+    .navbar-brand, .nav-item {
+        font-size: 2rem;
+    }
+    .nav-item {
+        margin: 0 5px;
     }
 }
